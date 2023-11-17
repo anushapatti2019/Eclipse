@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="APIkey" value="kaghdfkjsfgkjds"/>
+  <parameter name="URL" value="www.qa.com"/>
+  <test thread-count="5" name="Payment gateway1(failed)">
+    <classes>
+      <class name="Bank.HDFC">
+        <methods>
+          <include name="login"/>
+          <include name="transfer"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Bank.HDFC -->
+    </classes>
+  </test> <!-- Payment gateway1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

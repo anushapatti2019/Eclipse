@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-23T12:53:10 IST" name="Suite" finished-at="2023-07-23T12:53:10 IST" duration-ms="72">
+    <groups>
+      <group name="smoke">
+        <method signature="HDFC.transfer()[pri:0, instance:Bank.HDFC@659499f1]" name="transfer" class="Bank.HDFC"/>
+        <method signature="ICICI.transfer()[pri:0, instance:Bank.ICICI@51e69659]" name="transfer" class="Bank.ICICI"/>
+        <method signature="Kotak.transfer()[pri:0, instance:Bank.Kotak@3e11f9e9]" name="transfer" class="Bank.Kotak"/>
+        <method signature="SBI.transfer()[pri:0, instance:Bank.SBI@82de64a]" name="transfer" class="Bank.SBI"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-07-23T12:53:10 IST" name="payment gateway" finished-at="2023-07-23T12:53:10 IST" duration-ms="72">
+      <class name="Bank.SBI">
+        <test-method signature="transfer()[pri:0, instance:Bank.SBI@82de64a]" started-at="2023-07-23T12:53:10 IST" name="transfer" finished-at="2023-07-23T12:53:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transfer -->
+      </class> <!-- Bank.SBI -->
+      <class name="Bank.Kotak">
+        <test-method signature="transfer()[pri:0, instance:Bank.Kotak@3e11f9e9]" started-at="2023-07-23T12:53:10 IST" name="transfer" finished-at="2023-07-23T12:53:10 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transfer -->
+      </class> <!-- Bank.Kotak -->
+      <class name="Bank.ICICI">
+        <test-method signature="transfer()[pri:0, instance:Bank.ICICI@51e69659]" started-at="2023-07-23T12:53:10 IST" name="transfer" finished-at="2023-07-23T12:53:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transfer -->
+      </class> <!-- Bank.ICICI -->
+      <class name="Bank.HDFC">
+        <test-method signature="transfer()[pri:0, instance:Bank.HDFC@659499f1]" started-at="2023-07-23T12:53:10 IST" name="transfer" finished-at="2023-07-23T12:53:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transfer -->
+      </class> <!-- Bank.HDFC -->
+    </test> <!-- payment gateway -->
+  </suite> <!-- Suite -->
+</testng-results>

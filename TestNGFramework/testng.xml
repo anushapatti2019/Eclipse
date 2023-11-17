@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+		<listener class-name="Bank.Listeners"/>
+	</listeners>
+	<parameter name="URL" value="www.qa.com"/>
+	<parameter name="APIkey" value="kaghdfkjsfgkjds"/>
+  <test name="Payment gateway1">
+	  <classes>
+		  <class name="Bank.HDFC"/>
+		  <class name="Bank.SBI"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Payment gateway2">
+	  <classes>
+		  <class name="Bank.ICICI"/>
+		  <class name="Bank.Kotak"/>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
